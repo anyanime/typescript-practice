@@ -49,12 +49,6 @@ const multiply = (first: number, second: number) => {
 
 multiply(4, 6);
 
-let things: any = {x: 0};
-
-things.foo();
-things.bar = 200;
-things = 'God is good';
-const o: number = things;
 
 const printId = (id: number | string) => {
     console.log(`Your id is ${id}`);
@@ -68,8 +62,6 @@ const compliment = (id: number | string) => {
     console.log(`Hello &{id.toUpperCase()}! You are welcome to the club`) :   
     console.log(id);  
 }
-
-
 
 compliment('Anyanime');
 compliment(101);
