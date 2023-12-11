@@ -51,7 +51,6 @@ multiply(4, 6);
 
 let things: any = {x: 0};
 
-things();
 things.foo();
 things.bar = 200;
 things = 'God is good';
